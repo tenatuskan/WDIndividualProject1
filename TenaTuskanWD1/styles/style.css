@@ -1,0 +1,103 @@
+body {
+    text-align:center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#All{
+    background-color:#cc9486;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 15px;
+    padding: .5em 1em;
+    border: none;
+}
+
+#All:focus{
+    background-color: #a8381c ;
+}
+
+#Poetry{
+    background-color:#cc9486;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: .5em 1em;
+    border: none;
+}
+#Poetry:focus{
+    background-color: #a8381c ;
+}
+
+#Fiction{
+    background-color:#cc9486;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: .5em 1em;
+    border: none;
+}
+
+#Fiction:focus{
+    background-color: #a8381c ;
+}
+
+#Biography{
+    background-color:#cc9486;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: .5em 1em;
+    border: none;
+}
+
+#Biography:focus{
+    background-color: #a8381c ;
+}
+
+#add{
+    background-color:#cc9486;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: .5em 1em;
+    border: none;
+}
+
+#author{
+    background-color:#cc9486;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: .5em 1em;
+    border: none;
+}
+
+#title{
+    background-color:#cc9486;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: .5em 1em;
+    border: none;
+}
+
+.buttons{
+    text-align: center;
+}
+
+table.displayedTable{
+    margin-left:auto; 
+    margin-right:auto;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em; 
+    border-spacing: .5em;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}

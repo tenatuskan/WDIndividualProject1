@@ -1,0 +1,58 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+        <title>Filtering and Sorting</title>
+        <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>BIBLIOGRAPHY SORTING SYSTEM</h1>
+    <h3>CLICK TO DISPLAY BY:</h3>
+    <div class="buttons">   
+        <button type="button" id="All" >All</button>
+        <button type="button" id="Poetry">Poetry</button>
+        <button type="button" id="Fiction"> Fiction</button>
+        <button type="button" id="Biography">Biography</button>
+    </div>
+    <div>
+        <table class="displayedTable">
+            <thead>
+                <tr>
+                    <th id='author'>Author</th>
+                    <th id='title'>Title</th>
+                </tr>
+            </thead>
+            <tbody id='display'></tbody>
+        </table>
+    </div>
+    <div>
+        <table class="displayedTable">
+            <h3>ADD NEW BIBLIOGRAPHY</h3>
+            <tr>
+                <td>Enter the Title:</td>
+                <td><input type="text" id="titleNew" /></td> 
+            </tr>
+            <tr>
+                <td>Enter the Author:</td>
+                <td><input type="text" id="authorNew" /></td> 
+            </tr> 
+            <tr>
+                <td>Pick the Genre:</td>
+            </tr>
+            <tr>
+                <form action="" id="genreNew">
+                <td><input type="radio" id="poe" name = "Genre" value="Poetry"><label for="Poetry">Poetry</label></td>
+                <td><input type="radio" id="fic" name = "Genre" value="Fiction"><label for="Fiction">Fiction</label></td>
+                <td><input type="radio" id="bio" name = "Genre" value="Biography"><label for="Biography">Biography</label></td>
+                </form>
+            </tr>
+        </table>
+        <button type="button" id="add" onclick="addNewBook();">Add to library</button>
+    </div>    
+<script src='js/script.js'></script>
+</body>
+</html>
